@@ -30,7 +30,6 @@ composer install
 ## Create database finalwebdev_db
 
 ```
-env
 CI_ENVIRONMENT = development
 database.default.database = finalwebdev_db
 database.default.username = root
@@ -38,16 +37,14 @@ database.default.password =
 ```
 
 ```
-bash
 mkdir public/uploads
 php spark serve
 ```
 
-# Open:http://localhost:8080/users
+### Open: http://localhost:8080/users
 
 ## Database
 ```
-sql
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(100) NOT NULL,
@@ -59,7 +56,6 @@ CREATE TABLE users (
 
 ## Project Folder Structure
 ```
-text
 final-webdev/
 ├── app/
 │   ├── Config/
