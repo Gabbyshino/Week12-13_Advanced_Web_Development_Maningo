@@ -20,7 +20,6 @@
 ## Installation
 
 ```
-bash
 git clone https://github.com/YOUR_USERNAME/final-webdev.git
 cd final-webdev
 composer install
